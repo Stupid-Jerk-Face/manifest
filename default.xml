@@ -565,6 +565,6 @@
 
   <include name="snippets/aquarios.xml" />
   <include name="snippets/devices.xml" />
-  <include name="snippets/hals.xml" />>
+  <include name="snippets/hals.xml" />
 
 </manifest>
