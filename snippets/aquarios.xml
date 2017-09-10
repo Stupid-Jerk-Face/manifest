@@ -16,6 +16,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/aquarios/sepolicy" name="device_aquarios_sepolicy" />
   <project path="external/selinux" name="external_selinux" />
   <project path="frameworks/base" name="frameworks_base" />
   <project path="frameworks/av" name="frameworks_av" />
