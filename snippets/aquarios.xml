@@ -26,7 +26,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" />
-  <project path="packages/apps/CoralReef" name="packages_apps_CoralReef" />
+<!--  <project path="packages/apps/CoralReef" name="packages_apps_CoralReef" /> -->
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" />
