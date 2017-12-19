@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aqua"
+           fetch="git+ssh://git@github.com/calebcabob"
+           revision="a8.1.0" />
+
+  <remote  name="aquacaf"
+           revision="a8.1.0-caf"
+           fetch="git+ssh://git@github.com/kenny3fcb" />
+
+  <!-- AquariOS -->
+ <project path="bionic" name="bionic" groups="pdk" remote="aquacaf" />
+  <project path="build/make" name="build" remote="aquacaf" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="aquacaf" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aquacaf" />
+  <project path="device/aquarios/sepolicy" name="device_aquarios_sepolicy" remote="aquacaf" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aquacaf" />
+  <project path="frameworks/base" name="frameworks_base" remote="aqua" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aquacaf" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aquacaf" /> 
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aqua" /> 
+  <project path="manifest" name="manifest" remote="aquacaf" />
+  <project path="packages/apps/CoralReef" name="CoralReef" remote="aqua" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aqua" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aqua" /> 
+  <project path="system/core" name="system_core" groups="pdk" remote="aquacaf" /> 
+  <project path="system/extras" name="system_extras" groups="pdk" remote="aquacaf" /> 
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aquacaf" /> 
+  <project path="vendor/aquarios" name="vendor_aquarios" remote="aquacaf" />
+</manifest>
