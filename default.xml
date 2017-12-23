@@ -331,7 +331,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -489,12 +488,16 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- GZOSP CAF manifest -->
-  <include name="gzosp_default.xml" />
+  <!-- GZOSP -->
+  <include name="gzosp.xml" />
 
-  <!-- GZOSP CAF manifest -->
-  <include name="caf_default.xml" />
+  <!-- CAF -->
+  <include name="caf.xml" />
 
   <!-- AquariOS -->
-  <include name="aquarios_default.xml" />
+  <include name="aquarios.xml" />
+
+  <!-- Omni -->
+  <include name="omni.xml" />
+
 </manifest>
