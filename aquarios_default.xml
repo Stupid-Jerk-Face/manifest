@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="aqua"
-           fetch="git+ssh://git@github.com/calebcabob"
+           fetch="git+ssh://git@github.com/aquarios"
            revision="a8.1.0" />
 
   <remote  name="aquacaf"
-           revision="a8.1.0-caf"
-           fetch="git+ssh://git@github.com/kenny3fcb" />
+           fetch="git+ssh://git@github.com/aquarios"
+           revision="a8.1.0-caf" />
 
   <!-- AquariOS -->
  <project path="bionic" name="bionic" groups="pdk" remote="aquacaf" />
@@ -27,14 +27,14 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aquacaf" />
   <project path="device/aquarios/sepolicy" name="device_aquarios_sepolicy" remote="aquacaf" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aquacaf" />
-  <project path="frameworks/base" name="frameworks_base" remote="aqua" />
+  <project path="frameworks/base" name="frameworks_base" remote="aquacaf" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aquacaf" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aquacaf" /> 
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aqua" /> 
   <project path="manifest" name="manifest" remote="aquacaf" />
-  <project path="packages/apps/CoralReef" name="CoralReef" remote="aqua" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aqua" />
+  <project path="packages/apps/CoralReef" name="CoralReef" remote="aquacaf" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aquacaf" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aqua" /> 
   <project path="system/core" name="system_core" groups="pdk" remote="aquacaf" /> 
   <project path="system/extras" name="system_extras" groups="pdk" remote="aquacaf" /> 

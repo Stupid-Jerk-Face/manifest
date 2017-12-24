@@ -91,7 +91,7 @@ cd ~/aquarios
 
 9) Now you're going to initialize the repo:
 ```bash
-repo init -u https://github.com/kenny3fcb/manifest -b a8.1.0-caf
+repo init -u https://github.com/aquarios/manifest.git -b a8.1.0-caf
 ```
 
 <br />
