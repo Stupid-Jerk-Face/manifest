@@ -35,7 +35,8 @@
   <project path="manifest" name="manifest" remote="aquacaf" />
   <project path="packages/apps/CoralReef" name="CoralReef" remote="aquacaf" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aquacaf" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aqua" /> 
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aqua" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aquacaf" />
   <project path="system/core" name="system_core" groups="pdk" remote="aquacaf" /> 
   <project path="system/extras" name="system_extras" groups="pdk" remote="aquacaf" /> 
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aquacaf" /> 
