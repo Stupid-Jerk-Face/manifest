@@ -27,6 +27,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aquacaf" />
   <project path="device/aquarios/sepolicy" name="device_aquarios_sepolicy" remote="aquacaf" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aquacaf" />
+  <project path="external/DUtils" name="external_DUtils" remote="aqua" />
   <project path="frameworks/base" name="frameworks_base" remote="aquacaf" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aquacaf" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aquacaf" /> 
@@ -34,8 +35,10 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aqua" /> 
   <project path="manifest" name="manifest" remote="aquacaf" />
   <project path="packages/apps/CoralReef" name="CoralReef" remote="aquacaf" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="aqua" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aquacaf" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aqua" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="aqua" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aquacaf" />
   <project path="system/core" name="system_core" groups="pdk" remote="aquacaf" /> 
   <project path="system/extras" name="system_extras" groups="pdk" remote="aquacaf" /> 
