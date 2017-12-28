@@ -74,6 +74,8 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.0-caf" remote="lineage" />
 
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="lineage" /> 
+
   <!-- Ril -->
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="staging/lineage-15.1-caf" remote="lineage" />
   
